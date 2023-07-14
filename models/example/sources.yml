@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: bookings_source
+    database: POC_TDI
+    schema: bookings
+    tables:
+      - name: ticket_flights
+      - name: airports_data
