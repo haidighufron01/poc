@@ -16,7 +16,7 @@ with source_data as (
 		flight_id, 
 		fare_conditions, 
 		amount,
-		amount*15000 as amount_in_idr
+		amount::numeric*15000 as amount_in_idr
 	FROM {{ source('bookings_source', 'ticket_flights') }}
 
 
