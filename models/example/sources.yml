@@ -1,8 +1,8 @@
 version: 2
 sources:
   - name: bookings_source
-    database: POC_TDI
-    schema: bookings
+    database: poc_nx_cloudquery
+    schema: public
     tables:
       - name: ticket_flights
       - name: airports_data
